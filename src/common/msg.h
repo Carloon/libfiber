@@ -7,7 +7,10 @@ extern "C" {
 
 #include <stdarg.h>
 #include <stdio.h>
-#include "define.h"
+
+#ifndef _MSG_INCLUDE_H_ /* For some reason -I.. is insufficent to read define.h */
+# include "define.h"
+#endif
 
 #undef	USE_PRINTF_MACRO
 
