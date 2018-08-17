@@ -1,5 +1,6 @@
 /* Copyright (c) 2005 Russ Cox, MIT; see COPYRIGHT */
 
+#include "define.h" /* RV-CRM: Added because calling define.h from stdafx.h fails */
 #include "stdafx.h"
 #include "common.h"
 #include "fiber.h"
