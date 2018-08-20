@@ -1,6 +1,7 @@
 #!/bin/sh
 set -x # print debug info
  
+
 # This is running under Ubuntu 16.04
 # Install necessary packages. 
 sudo apt-get install -y libreadline-dev
