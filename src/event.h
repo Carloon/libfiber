@@ -7,7 +7,7 @@
 #ifdef	HAS_EPOLL
 #include <sys/epoll.h>
 #endif
-#include "fiber/libfiber.h"
+#include "libfiber.h" /* RV CRM ugly fix was "fiber/libfiber.h" */
 
 #define SET_TIME(x) do { \
     struct timeval _tv; \
