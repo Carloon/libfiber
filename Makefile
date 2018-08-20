@@ -132,7 +132,7 @@ OBJ_PATH_DST = ./debug
 
 SRC_PATH_SRC = ./src
 
-INC_COMPILE  = -I./include -I./src -I./src/common -I. -I.. -I../..
+INC_COMPILE  = -I./include -I./src -I./src/common -I. -I.. -I../.. -I./include/fiber -I./fiber
 CFLAGS += $(INC_COMPILE)
 
 #Project's objs
